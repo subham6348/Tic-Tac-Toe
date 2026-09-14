@@ -47,8 +47,7 @@ body{
 }
 
 .msg-container{
-    
-    margin-bottom: 5px;
+    min-height: 3rem;
 }
 
 #msg{
@@ -57,7 +56,7 @@ body{
 }
 
 .hide{
-    display:none;
+   visibility: hidden;
 }
 
 @media (max-width: 600px) {
