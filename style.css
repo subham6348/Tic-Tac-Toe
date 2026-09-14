@@ -9,7 +9,7 @@ body{
     justify-content: center;
     align-items:center;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .game{
@@ -47,7 +47,8 @@ body{
 }
 
 .msg-container{
-    margin-bottom: 10px;
+    
+    margin-bottom: 5px;
 }
 
 #msg{
@@ -59,3 +60,21 @@ body{
     display:none;
 }
 
+@media (max-width: 600px) {
+    .container {
+        height: 50vh;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .game {
+        height: 85vmin;
+        width: 85vmin;
+    }
+
+    .box {
+        height: 25vmin;
+        width: 25vmin;
+        font-size: 250%;
+    }
+}
